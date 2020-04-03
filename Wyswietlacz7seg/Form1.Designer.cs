@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Drawing;
 using System.Windows.Forms;
 
 namespace Wyswietlacz7seg
@@ -13,12 +12,12 @@ namespace Wyswietlacz7seg
 
         public void InitializeComponent()
         {
-            this.wyswietlacz4 = new Wyswietlacz7seg.Wyswietlacz();
-            this.wyswietlacz3 = new Wyswietlacz7seg.Wyswietlacz();
-            this.wyswietlacz2 = new Wyswietlacz7seg.Wyswietlacz();
-            this.wyswietlacz1 = new Wyswietlacz7seg.Wyswietlacz();
-            this.textBox = new System.Windows.Forms.TextBox();
-            this.label = new System.Windows.Forms.Label();
+            this.wyswietlacz4 = new Wyswietlacz();
+            this.wyswietlacz3 = new Wyswietlacz();
+            this.wyswietlacz2 = new Wyswietlacz();
+            this.wyswietlacz1 = new Wyswietlacz();
+            this.textBox = new TextBox();
+            this.label = new Label();
             this.SuspendLayout();
             // 
             // wyswietlacz4
